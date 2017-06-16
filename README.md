@@ -1,4 +1,4 @@
-# RFControl
+# RFTransmit
 Read and write through RF between two (or more) Arduino devices.
 It SHOULD work with every data type and there is no checksum to see if transmitted data are consistent.
 Receiver (transmitter) has to be connected on RX (TX) pin, because it uses Serial.read() and Serial.write().
